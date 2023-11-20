@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>HTML FORM</title>
+
+     <!-- CSS -->
+     <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+     <div class="container">
+          <header>Sign Up</header>
+          <form action="#">
+               <div class="field email-field">
+                    <div class="input-field ">
+                         <input type="email" placeholder="Enter your email" class="email"> 
+                    </div>
+                    <span class="error email-error">
+                         <div class="error-icon">
+                              <i class="fa-solid fa-circle-exclamation"></i>
+                         </div>
+                         <p class="error-text">
+                              Please enter a valid email
+                         </p>
+                    </span>
+               </div>
+               <div class="field create-password">
+                    <div class="input-field ">
+                         <input type="password" placeholder="Create password" value="" class="password"> 
+                         <div class="show-hide">
+                              <i class="fa-regular fa-eye-slash"></i>
+                         </div>
+                    </div>
+                    <span class="error password-error">
+                         <div class="error-icon">
+                              <i class="fa-solid fa-circle-exclamation"></i>
+                         </div>
+                         <p class="error-text">
+                              password must contain minimum 8 characters with number, symbol, lowercase and uppercase letters
+                         </p>
+                    </span>
+               </div>
+               
+               <div class="field confirm-password">
+                    <div class="input-field ">
+                         <input type="password" placeholder="Confirm password" class="cPassword"> 
+                         <div class="show-hide">
+                              <i class="fa-regular fa-eye-slash"></i>
+                         </div>
+                    </div>
+                    <span class="error password-error">
+                         <div class="error-icon">
+                              <i class="fa-solid fa-circle-exclamation"></i>
+                         </div>
+                         <p class="error-text">
+                              Password didn't match
+                         </p>
+                    </span>
+               </div>
+               <div class="input-field button">
+                    <input type="submit" value="submit Now">
+               </div>
+          </form>
+     </div>
+    
+
+     <!-- JavaScript -->
+     <script src="app.js"></script>
+     <script src="https://kit.fontawesome.com/0967d7ff58.js" crossorigin="anonymous"></script>
+</body>
+</html>
