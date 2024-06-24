@@ -2,7 +2,7 @@
 # Login Form with Validation and Password Toggle
 
 A responsive login form with client-side validation for email and password fields. The form includes functionality to show or hide the password and validates that the email is in the correct format, the password meets complexity requirements, and the passwords match.
-
+https://6679a7e0678893009e61e14a--lucky-pasca-fdf0fb.netlify.app/
 ## Project Overview
 
 This project demonstrates a login form with robust client-side validation. The form validates the email format, ensures the password meets complexity criteria, and confirms that the passwords match. It also includes a feature to toggle password visibility.
