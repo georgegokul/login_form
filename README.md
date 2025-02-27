@@ -25,6 +25,3 @@ Contributions are welcome! Please fork the repository and create a pull request 
 - [Regex Email Validation](https://regexr.com/3e48o)
 - [Toggle Password Visibility](https://www.w3schools.com/howto/howto_js_toggle_password.asp)
 
----
-
-Feel free to customize and expand this README as needed to better fit your project and preferences.
